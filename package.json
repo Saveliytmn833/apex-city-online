@@ -1,0 +1,16 @@
+{
+  "name": "apex-city-online",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Free 8-player mobile browser multiplayer prototype for APEX CITY",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
