@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const WebSocket = require('ws');
 const PORT = process.env.PORT || 2567;
-const ROOT = path.join(__dirname, 'public');
+const ROOT = __dirname;
 const rooms = new Map();
 const server = http.createServer((req,res)=>{
   const pathname = decodeURIComponent((req.url||'/').split('?')[0]);
